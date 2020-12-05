@@ -1,0 +1,24 @@
+To: rckeeler@cox.net bill@putnamconsulting.com 
+From: aca@caves.org <ACA Web Site>
+Cc: aca@caves.org
+Subject: Comments from ACA web page
+
+The following comments were submitted by 
+[required-name] at [required-email].
+
+  NSS Member: [required-nss]
+    Found by: [found]
+Rating (1-5): [scale]
+       Likes: [fav]
+  Don't like: [least]
+
+Organization
+[org]
+[missing]
+
+[other]
+[orgcomm]
+
+General Comments
+[comments]
+

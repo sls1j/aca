@@ -1,0 +1,85 @@
+<html>
+
+<head>
+<title>American Caving Accidents Style Guide</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+		<style>
+			body {
+				font-family: 'Open Sans', sans-serif;
+				font-size: 14;
+			}
+			
+			.column {
+				width:5in;
+				margin-left:auto;
+				margin-right:auto;
+				margin-bottom:3em;
+			}
+		</style>
+		
+		<!--#include virtual="/includes/top.html"-->
+</head>
+
+<body>
+
+<!--#include virtual="/includes/header.html"-->
+
+<div class="column">
+
+<h2 align="center">American Caving Accidents</h2>
+
+<h3 align="center">Style Guide for Incident Reports</h3>
+
+<p>The summary reports printed in American Caving Accidents have a particular style which
+helps insure that the information is presented in a complete and consistent manner. If
+your report follows the guidelines below it will make it easier for the editor to review
+and prepare for publication. </p>
+
+<h3>All reports should include the following:</h3>
+
+<p><strong>Information to identify this report:</strong>
+
+<ul>
+  <li>Name of the cave</li>
+  <li>State or Province where the cave is located (don't need an exact location)</li>
+  <li>Date of the incident</li>
+  <li>Your name and contact information (email, phone, USMAIL)</li>
+</ul>
+
+<p><strong>Information about the people:</strong>
+
+<ul>
+  <li>Names and ages of the people involved</li>
+  <li>The level of caving experience that they have</li>
+  <li>Affiliations with caving or other organizations</li>
+</ul>
+
+<p><strong>Description of the incident:</strong>
+
+<ul>
+  <li>Summary of what happened</li>
+  <li>Nature of injuries sustained</li>
+  <li>Analysis of the main cause</li>
+  <li>Any contributing factors</li>
+  <li>What might have been done to prevent the incident</li>
+</ul>
+
+<p><strong>Response to the incident:</strong>
+
+<ul>
+  <li>Actions following the incident</li>
+  <li>Persons or organizations contacted for help</li>
+  <li>Description of rescue procedures</li>
+</ul>
+
+<p><strong>Any references:</strong>
+
+<ul>
+  <li>Newspapers reporting the incident</li>
+  <li>Television or radio stations covering the incident</li>
+  <li>Newsletter articles or other publications</li>
+</ul>
+</div>
+<!--#include virtual="/includes/footer.html"-->
+</body>
+</html>

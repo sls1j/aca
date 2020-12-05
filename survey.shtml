@@ -1,0 +1,148 @@
+<html>
+
+<head>
+	<title>ACA Comments &amp; Suggestions</title>
+	<link rel="stylesheet" type="text/css" href="styles/aca-styles.css"/>
+	
+	<!--#include virtual="/includes/top.html"-->
+
+</head>
+
+<body>
+
+	<!--#include virtual="/includes/header.html"-->
+
+	<div class="column" style="width:60%">
+		<h2 align="center">ACA Comments &amp; Suggestions</h2>
+
+		<hr>
+
+		<form METHOD="POST" ACTION="/cgi-bin/cgiemail.cgi/pub/aca/aca-survey.txt">
+		  <nobr><div align="center"><center><p>The National Speleological Society appreciates your
+		  interest.<br>
+		  Your comments will help us to better serve the caving community. </nobr></p>
+		  </center></div><table>
+			<tr>
+			  <td colspan="2">Please tell us about yourself: </td>
+			</tr>
+			<tr>
+			  <td>Name: </td>
+			  <td><input TYPE="text" NAME="required-name" SIZE="50"> <font color="#FF0000">(required)</font>
+			  </td>
+			</tr>
+			<tr>
+			  <td>Email Address: </td>
+			  <td><input TYPE="text" NAME="required-email" SIZE="50"> <font color="#FF0000">(required)</font></td>
+			</tr>
+		  </table>
+		  <hr>
+		  <p><br>
+		  </p>
+		  <h3>Please answer the following questions:</h3>
+		  <ol>
+			<li>Are you a member of the National Speleological Society?&nbsp; <font color="#FF0000">(required)</font>
+		 <ul>
+				<input TYPE="radio" NAME="required-nss" VALUE="Yes">Yes <br>
+				  <input TYPE="radio" NAME="required-nss" VALUE="No">No
+			  </ul>
+			</li>
+			<li>How did you find out about this site? <ul>
+				<input TYPE="text" NAME="found" SIZE="50">
+			  </ul>
+			</li>
+			<li>What was your favorite part of this site? <ul>
+				<textarea NAME="fav" COLS="50" ROWS="4"></textarea>
+			  </ul>
+			</li>
+			<li>What was your least favorite part of this web site? <ul>
+				<textarea NAME="least" COLS="50" ROWS="4"></textarea>
+			  </ul>
+			</li>
+			<li>What do you think about the organization of this web site? <ul>
+				<input TYPE="radio" NAME="org" VALUE="I like the way it is organized.">I like the way it
+				  is organized. <br>
+				  <input TYPE="radio" NAME="org" VALUE="It's not very intuitive.">It's not very intuitive -
+				  it didn't make sense to me where you put some things. <br>
+				  <input TYPE="radio" NAME="org" VALUE="Not sure yet">Not sure yet - I'm not familiar enough
+				  with web sites to judge. <br>
+				  <input TYPE="radio" NAME="org" VALUE="It needs a section on: ">It needs a section on: <ul>
+					<textarea NAME="missing" COLS="50" ROWS="4"></textarea>
+				  </ul><br>
+				  <input TYPE="radio" NAME="other" VALUE="Other comments on Organization:">Other comments on
+				  organization: <ul>
+					<textarea NAME="orgcomm" COLS="50" ROWS="4"></textarea>
+				  </ul>
+				</li>
+			  </ul>
+			</li>
+			<li>On a scale of one to five, what do you think of this web-site? (five means you like it
+			  very much) <pre>
+			<input TYPE="radio" NAME="scale" VALUE="1">1     <input TYPE="radio"
+		NAME="scale" VALUE="2">2     <input TYPE="radio" NAME="scale" VALUE="3">3     <input
+		TYPE="radio" NAME="scale" VALUE="4">4     <input TYPE="radio" NAME="scale" VALUE="5">5
+		</pre>
+			</li>
+			<li>Do you have any additional comments or suggestions for the ACA site?&nbsp; <ul>
+				<textarea NAME="comments" COLS="50" ROWS="4"></textarea>
+			  </ul>
+			</li>
+		  </ol>
+		  <div align="center"><center><p><br>
+				<span>Click Circle to prove you're not a robot </span>
+				<canvas id="circle" height="32" width="32" style="cursor: pointer" >			
+				</canvas>
+				<script>
+					var needHelp = true;
+					console.log("drawing circle");
+					var canvas = document.getElementById("circle")
+					canvas.addEventListener('click', circleClick);
+					var ctx = canvas.getContext("2d");
+					ctx.beginPath();
+					ctx.arc(16,16,12,0,2*Math.PI);
+					ctx.strokeStyle = "red";
+					ctx.lineWidth = 4;
+					ctx.stroke();
+
+					function circleClick(evt){				
+						if ( needHelp ){
+							needHelp = false;					
+							var sb = document.createElement("input");
+							sb.type = "submit";
+							sb.value = "Submit Report";
+							sb.name = sb.type;
+
+							var sbc = document.getElementById("subContainer");
+							sbc.appendChild(sb);
+							
+							ctx.clearRect(0,0, canvas.width, canvas.height);
+							ctx.beginPath();
+							ctx.arc(16,16,12,0,2*Math.PI);
+							ctx.strokeStyle = "green";
+							ctx.lineWidth = 4;
+							ctx.moveTo(0,0);
+							ctx.lineTo(32,32);
+							ctx.moveTo(32,0);
+							ctx.lineTo(0,32);
+							ctx.stroke();
+						}
+					}
+				</script>						
+		   <span id="subContainer"></span><input TYPE="reset" VALUE="Erase Form"> </p>
+		  </center></div>
+		</form>
+
+		<hr>
+		<a href=".">
+		<p align="center">Back to the ACA Home Page</a> </p>
+		<div align="center"><center>
+
+		<address>
+		  Copyright &copy;  2005, National Speleological Society 
+		</address>
+		</center></div>
+	</div>
+	
+	<!--#include virtual="/includes/footer.html"-->
+	
+</body>
+</html>

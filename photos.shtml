@@ -1,0 +1,44 @@
+<html>
+
+<head>
+	<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+	<title>Photos Needed!</title>
+	<link rel="stylesheet" type="text/css" href="styles/aca-styles.css"/>
+		
+		<!--#include virtual="/includes/top.html"-->
+</head>
+
+<body>
+
+	<!--#include virtual="/includes/header.html"-->
+	
+	<div class="column">
+		<h1 align="center">American Caving Accidents</h1>
+ 
+		<h2 align="center">Photos and Artwork Needed!</h2>
+
+		<p>We are always seeking good photos of actual cave rescue operations for use on the web
+		site and especially on the covers of American Caving Accidents issues. Photos of cave
+		rescue training or illustrations of caving safety issues or techniques are also
+		appropriate. Our preference is for action shots, but anything related to cave rescue or
+		caving safety is of interest.</p>
+
+		<p>If you have photos you would like to submit for use in ACA or on the web site, please
+		contact the ACA Editor at <a href="mailto:aca@caves.org">aca@caves.org</a>. If you can
+		email scanned images in JPEG format that will help us out. </p>
+
+		<p>Bonny Armstrong<br>
+		Editor, American Caving Accidents<br><br>
+		<a href="mailto:aca@caves.org">aca@caves.org<br>
+		</a>
+		<address>
+		Bonny Armstrong<br>
+		110 Timber Lakes Est.<br>
+		Heber City, UT 84032<br>
+		</address><br>		
+		480-861-1807</p>
+  </div>
+  
+  <!--#include virtual="/includes/footer.html"-->
+</body>
+</html>

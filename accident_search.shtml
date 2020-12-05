@@ -1,0 +1,145 @@
+<html>
+
+<head>
+	<title>Accident Search</title>
+	<!--#include virtual="/includes/top.html"-->
+	<link rel="stylesheet" type="text/css" href="styles/aca-styles.css" />
+	<script src="scripts/jquery-2.2.1.js"></script>
+	<script type='text/javascript' src='scripts/knockout-3.4.1.js'></script>
+	<script type='text/javascript' src="data/caving-accident-data.js"></script>
+	<script type='text/javascript' src="scripts/accidentViewModel.js"></script>
+</head>
+<html>
+
+<body>
+	<main>
+		<!--#include virtual="/includes/header.html"-->
+		<div class="column" style="width:8in">
+			<div class="center">
+				<h1>American Caving Accidents</h1>
+				<h2>
+					<span id="year" /> Accidents and Incident Reports on File</h2>
+				<div>
+					<a href="aca-report-form.php">Report a Caving Accident or Incident!</a>
+				</div>
+			</div>
+			<div class="paragraph">The current file of reports for
+				<span id="year_word_2" /> includes the incidents listed below. In some cases the reports are
+				<a href="style.html">incomplete</a>. If you have information about such incidents or about an incident which is not listed here, please contact
+				the
+				<a href="contact.shtml">ACA Editor</a> or use the
+				<a href="aca-report-form.php">online accident report</a> form to report it. The standard information required for an ACA incident summary is listed
+				in the
+				<a href="style.shtml">style guide</a>.</div>
+			<div class="paragraph">NSS Members can read past
+				<a href="https://caves.org/nss-business/publications/ACA/index.shtml"> ACA issues </a> online.</div>
+
+			<div id="incidents" class="center" style="visibility: collapse">
+				<span>Filtered by </span>
+				<span id="incidents_type" />
+			</div>
+			<div class="incident_table_header" style="margin-top:1em">
+				<span id="caving_count" /> Caving incidents</div>
+			<table class="incident_table">
+				<thead>
+					<th>Date</th>
+					<th>Cave</th>
+					<th>Location</th>
+					<th>Result</th>
+					<th>Incident Type</th>
+					<th>Full Text</th>
+				</thead>
+				<tbody data-bind="template: {name: 'list_template', foreach: cavingAccidents}">
+				</tbody>
+			</table>
+			<div class="incident_table_header">
+				<span id="diving_count" /> Cave Diving Incidents</div>
+			<table class="incident_table">
+				<thead>
+					<th>Date</th>
+					<th>Cave</th>
+					<th>Location</th>
+					<th>Result</th>
+					<th>Incident Type</th>
+					<th>Full Text</th>
+				</thead>
+				<tbody data-bind="template: {name: 'list_template', foreach: divingAccidents}">
+				</tbody>
+			</table>
+			<div class="incident_table_header">
+				<span id="related_count" /> Cave Related Incidents</div>
+			<table class="incident_table">
+				<thead>
+					<th>Date</th>
+					<th>Cave</th>
+					<th>Location</th>
+					<th>Result</th>
+					<th>Incident Type</th>
+					<th>Full Text</th>
+				</thead>
+				<tbody data-bind="template: {name: 'list_template', foreach: otherAccidents}">
+				</tbody>
+			</table>
+			<div class="small-print">* red color indicates details not complete.</div>
+		</div>
+	</main>
+	<!--#include virtual="/includes/footer.html"-->
+	<script type="text/html" id="list_template">
+				<tr data-bind="attr: { style: $parent.getRowStyle($data) }">
+					<td nowrap><span data-bind="text: incidentDate"></span></td>
+					<td><span data-bind="text: cave"></span></td>
+					<td><span data-bind="text: location"></span></td>
+					<td nowrap><span data-bind="text: results"></span></td>
+					<td><span data-bind="text: incidentType"></span></td>					
+					<td>
+						<!-- ko if: pdf -->
+						<a data-bind="attr: {href: pdf}">Full</a>
+						<!-- /ko -->
+					</td>					
+				</tr>
+			</script>
+	<script>  
+		$.urlParam = function (name) {
+			if (window.location && window.location.href) {
+				var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+				if (results)
+					return results[1];
+				else
+					return null;
+			} else
+				return null;
+		};
+
+		var $viewModel = new AccidentViewModel($accidents);
+		// get the year 
+
+		var year = parseInt($.urlParam("year"));
+		var beforeYear = $.urlParam("before");
+
+		var filter = null;
+
+		if (beforeYear) {
+			filter = function (a) {
+				var d = new Date(a.IncidentDate);
+				var aYear = d.getFullYear();
+				return aYear < year;
+			};
+
+			$viewModel.show_year = true;
+		}
+		else {
+			filter = function (a) {
+				var d = new Date(a.IncidentDate);
+				var aYear = d.getFullYear();
+				return aYear == year;
+			}
+
+			$viewModel.show_year = false;
+		}
+
+		$viewModel.apply_filter(filter);
+		ko.applyBindings($viewModel);
+	</script>
+</body>
+
+</html>
