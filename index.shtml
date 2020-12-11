@@ -1,158 +1,192 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd ">
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd ">
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
 	<title>American Caving Accidents</title>
 	<style type="text/css">
-	.center {
-	text-align:center;
-	margin-left:auto;
-	margin-right:auto;
-	}
-	.paragraph {
-	margin-top:1em;
-	margin-bottom:1em;
-	}
+		.center {
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.paragraph {
+			margin-top: 1em;
+			margin-bottom: 1em;
+		}
 	</style>
 	<!--#include virtual="/includes/top.html"-->
 
-<script type="text/javascript">
-setTimeout(function(){var a=document.createElement("script");
-var b=document.getElementsByTagName("script")[0];
-a.src=document.location.protocol+"// script.crazyegg.com/pages/scripts/0067/9921.js?"+Math.floor(new Date().getTime()/3600000);
-a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script>
+	<script type="text/javascript">
+		setTimeout(function () {
+			var a = document.createElement("script");
+			var b = document.getElementsByTagName("script")[0];
+			a.src = document.location.protocol + "// script.crazyegg.com/pages/scripts/0067/9921.js?" + Math.floor(new Date().getTime() / 3600000);
+			a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)
+		}, 1);
+	</script>
 
 </head>
 <!-- <body style="/* [disabled]background-image: url('images/nssback.jpg'); */"> -->
+
 <body>
-<!--#include virtual="/includes/header.html"-->
-<h1 align="center">American Caving Accidents</h1><h4 align="center">	The Journal of Record for Caving Accidents and Safety Incidents in North America<br>
-	A special&nbsp; publication of <a href="http://www.caves.org">The National Speleological
-	Society<br>
-	</a>Copyright &copy; 2016 National Speleological Society Inc.</h4>
-<div class="center" style="margin-bottom:2em">
-	<a href="https://n587.z2systems.com/np/clients/n587/giftstore.jsp?actionType=search&keyword=American%20Caving%20Accidents&catalogSearch=true">
-	<img style="margin:-2px" border="0" src="images/cover2010.gif" width="194" height="256" align="center">
-	<img style="margin:-2px" border="0" src="images/cover2013.png" width="198" height="256" align="center">
-	<img style="margin:-2px" border="0" src="images/cover2015.png" width="200" height="256" align="center">
-	</a></div>
+	<!--#include virtual="/includes/header.html"-->
+	<h1 align="center">American Caving Accidents</h1>
+	<h4 align="center"> The Journal of Record for Caving Accidents and Safety Incidents in North America<br>
+		A special&nbsp; publication of <a href="http://www.caves.org">The National Speleological
+			Society<br>
+		</a>Copyright &copy; 2021 National Speleological Society Inc.</h4>
+	<div class="center" style="margin-bottom:2em">
+		<a href="https://members.caves.org/store/ListProducts.aspx?catid=669867&ftr=American%20Caving%20Accidents">
+			<img style="margin:-2px" border="0" src="images/cover2010.gif" width="194" height="256" align="center">
+			<img style="margin:-2px" border="0" src="images/cover2013.png" width="198" height="256" align="center">
+			<img style="margin:-2px" border="0" src="images/cover2015.png" width="200" height="256" align="center">
+		</a>
+	</div>
 
-<div class="center" style="margin-bottom:2em">Last Update: 
-<!--webbot bot="Timestamp" S-Type="EDITED" S-Format="%B %d, %Y" startspan -->May 21, 2016<!--webbot bot="Timestamp" i-checksum="41427" endspan --></div>
-<div class="center" style="width:52%; padding:2; background-color:yellow; margin-bottom:1em">
-	<a href="aca-report-form.php"><b><big>Report a Caving Accident or Incident!</big></b></a></div>
-<div class="center">
-	[<a href="acaform.pdf">Print or Download Report Form</a>]
-	<span style="margin-left:0.5em;margin-right:0.5em;">|</span>[<a href="contact.shtml">Contact the Editor]</a></div>
+	<div class="center" style="margin-bottom:2em">Last Update: December 11, 2020</div>
+	<div class="center" style="width:52%; padding:2; background-color:yellow; margin-bottom:1em">
+		<a href="aca-report-form.php"><b><big>Report a Caving Accident or Incident!</big></b></a>
+	</div>
+	<div class="center">
+		[<a href="docs/acaform.pdf">Print or Download Report Form</a>]
+		<span style="margin-left:0.5em;margin-right:0.5em;">|</span>[<a href="contact.shtml">Contact the Editor]</a>
+	</div>
 	<strong>
-	
-	<div class="center" style="margin-top:1em;">Accident and Incident Reports on File</div>
-	<table class="center" width="60%">
 
-	<tr>
-		<td><a href="accident_search.shtml?year=1994&before=true">Older</a></td>
-		<td><a href="accident_search.shtml?year=1994">1994</a></td>
-		<td><a href="accident_search.shtml?year=1995">1995</a></td>
-		<td><a href="accident_search.shtml?year=1996">1996</a></td>
-		<td><a href="accident_search.shtml?year=1997">1997</a></td>
-		<td><a href="accident_search.shtml?year=1998">1998</a></td>
-		<td><a href="accident_search.shtml?year=1999">1999</a></td>
-		<td><a href="accident_search.shtml?year=2000">2000</a></td>
-		<td><a href="accident_search.shtml?year=2001">2001</a></td>
-		<td><a href="accident_search.shtml?year=2002">2002</a></td>
-		<td><a href="accident_search.shtml?year=2003">2003</a></td>
-		<td><a href="accident_search.shtml?year=2004">2004</a></td>
-		<td><a href="accident_search.shtml?year=2005">2005</a></td>
-	</tr>
-	<tr>
-		<td><a href="accident_search.shtml?year=2006">2006</a></td>	
-		<td><a href="accident_search.shtml?year=2007">2007</a></td>
-		<td><a href="accident_search.shtml?year=2008">2008</a></td>
-		<td><a href="accident_search.shtml?year=2009">2009</a></td>
-		<td><a href="accident_search.shtml?year=2010">2010</a></td>
-		<td><a href="accident_search.shtml?year=2011">2011</a></td>
-		<td><a href="accident_search.shtml?year=2012">2012</a></td>
-		<td><a href="accident_search.shtml?year=2013">2013</a></td>
-		<td><a href="accident_search.shtml?year=2014">2014</a></td>
-		<td><a href="accident_search.shtml?year=2015">2015</a></td>
-		<td><a href="accident_search.shtml?year=2016">2016</a></td>
-		<td><a href="accident_search.shtml?year=2017">2017</a></td>
-		<td><a href="accident_search.shtml?year=2018">2018</a></td>
-	</tr>
-</table>
+		<div class="center" style="margin-top:1em;">Accident and Incident Reports on File</div>
+		<table class="center" width="60%">
 
-<div class="center" style="margin-top:2em">Cave Safely and Responsibly</div>
-<div class="center">Read the NSS <a href="../../brochure/NSS Guide 62309.pdf" target="_blank">Guide to Responsible Caving</a></div></strong>
+			<tr>
+				<td><a href="accident_search.shtml?year=1994&before=true">Older</a></td>
+				<td><a href="accident_search.shtml?year=1994">1994</a></td>
+				<td><a href="accident_search.shtml?year=1995">1995</a></td>
+				<td><a href="accident_search.shtml?year=1996">1996</a></td>
+				<td><a href="accident_search.shtml?year=1997">1997</a></td>
+				<td><a href="accident_search.shtml?year=1998">1998</a></td>
+				<td><a href="accident_search.shtml?year=1999">1999</a></td>
+				<td><a href="accident_search.shtml?year=2000">2000</a></td>
+				<td><a href="accident_search.shtml?year=2001">2001</a></td>
+				<td><a href="accident_search.shtml?year=2002">2002</a></td>
+				<td><a href="accident_search.shtml?year=2003">2003</a></td>
+				<td><a href="accident_search.shtml?year=2004">2004</a></td>
+				<td><a href="accident_search.shtml?year=2005">2005</a></td>
+			</tr>
+			<tr>
+				<td><a href="accident_search.shtml?year=2006">2006</a></td>
+				<td><a href="accident_search.shtml?year=2007">2007</a></td>
+				<td><a href="accident_search.shtml?year=2008">2008</a></td>
+				<td><a href="accident_search.shtml?year=2009">2009</a></td>
+				<td><a href="accident_search.shtml?year=2010">2010</a></td>
+				<td><a href="accident_search.shtml?year=2011">2011</a></td>
+				<td><a href="accident_search.shtml?year=2012">2012</a></td>
+				<td><a href="accident_search.shtml?year=2013">2013</a></td>
+				<td><a href="accident_search.shtml?year=2014">2014</a></td>
+				<td><a href="accident_search.shtml?year=2015">2015</a></td>
+				<td><a href="accident_search.shtml?year=2016">2016</a></td>
+				<td><a href="accident_search.shtml?year=2017">2017</a></td>
+				<td><a href="accident_search.shtml?year=2018">2018</a></td>
+			</tr>
+		</table>
 
-<hr width="65%"></hr><div class="center" style="margin-top:1em; margin-bottom:1em;"><strong>American Caving Accidents Review Committee</strong></div><div class="center">Bonny Armstrong - Editor</div><div class="center">Andy Armstrong - Richard Breisch - Scott Christenson - George Dasher - Yvonne Droms</div><div class="center">Mark Minton - Stephen Mosberg - Rene Ohms - Sarah Richards - Forrest Wilson</div><div class="center">Brian Dickey - Webmaster</div>
-<div class="center" style="margin-top:1em; margin-bottom:1em;">Correspondence, <a href="aca-report-form.php">accident reports</a>, 	and inquiries related to <i>ACA</i> may be directed to <a href="contact.shtml">Bonny</a> at <a href="mailto:aca@caves.org">aca@caves.org</a>.</div>
-<hr width="65%"><div class="center"><h3>About <em> American Caving Accidents</em></h3></div>
-<div class="paragraph">
-	American Caving Accidents is the journal of record for accident and safety incident reports from the 	North American caving community, published by the National Speleological Society. Besides providing an	archival record of caving accidents and safety incidents, the ACA serves as an educational resource for	cavers and cave rescuers. Each issue of the ACA includes incident summaries based on collected information,	along with comments, analyses, editorials and feature articles on caving safety and accident prevention.	Readers of the ACA benefit from shared experiences of others, and have the opportunity to learn from those 	experiences and become safer cavers.</div>
-<div class="paragraph">
-	The ACA is distributed automatically to all current members of the National Speleological Society. Back issues are 	available on-line to NSS members. Non-members may order copies from the NSS Bookstore while supplies last.</div>
-<div class="paragraph">	We also include technical articles and other material related to caving 
-	safety. If you have any <a href="photos.shtml">photographs or diagrams</a> from 
-	rescues that might be of interest, please <a href="contact.shtml">contact 
-	the editor</a>.
-</div>
-<div class="paragraph">	The 1994 through 2010 accident and incident report indexes are provided 
-	above. Full text reports and back issues are not&nbsp;yet available online. Back 
-	issues of
-	<i>ACA</i> may be purchased from the <a href="https://n587.z2systems.com/np/clients/n587/giftstore.jsp?actionType=search&keyword=American%20Caving%20Accidents&catalogSearch=true">
-	NSS Bookstore</a> for a nominal fee.
-</div>
-<div class="paragraph">If you are aware of any
-	accidents or safety incidents in North America that are not shown on the incident
-	lists above, please <a href="aca-report-form.php">submit
-	a report</a> or <a href="contact.shtml">notify
-	the editor</a>. Unpublished incidents from prior years may also be reported for
-	publication. <i>American Caving Accidents </i>is published as a special issue of
-	the <i>NSS News,</i> and current NSS members automatically receive a copy of each 
-	<i>ACA</i>
-	as a part of their membership in the Society.</div>  
+		<div class="center" style="margin-top:2em">Cave Safely and Responsibly</div>
+		<div class="center">Read the NSS <a href="../../brochure/NSS Guide 62309.pdf" target="_blank">Guide to
+				Responsible Caving</a></div>
+	</strong>
+
+	<hr width="65%">
+	</hr>
+	<div class="center" style="margin-top:1em; margin-bottom:1em;"><strong>American Caving Accidents Review
+			Committee</strong></div>
+	<div class="center">Bonny Armstrong - Editor</div>
+	<div class="center">Andy Armstrong - Richard Breisch - Christian Stenner - George Dasher - Yvonne Droms</div>
+	<div class="center">Mark Minton - Stephen Mosberg - Rene Ohms - Sarah Richards - Forrest Wilson</div>
+	<div class="center">Brian Dickey - Webmaster</div>
+	<div class="center" style="margin-top:1em; margin-bottom:1em;">Correspondence, <a
+			href="aca-report-form.php">accident reports</a>, and inquiries related to <i>ACA</i> may be directed to
+		<a href="contact.shtml">Bonny</a> at <a href="mailto:aca@caves.org">aca@caves.org</a>.</div>
+	<hr width="65%">
+	<div class="center">
+		<h3>About <em> American Caving Accidents</em></h3>
+	</div>
+	<div class="paragraph">
+		American Caving Accidents is the journal of record for accident and safety incident reports from the North
+		American caving community, published by the National Speleological Society. Besides providing an archival
+		record of caving accidents and safety incidents, the ACA serves as an educational resource for cavers and
+		cave rescuers. Each issue of the ACA includes incident summaries based on collected information, along with
+		comments, analyses, editorials and feature articles on caving safety and accident prevention. Readers of the
+		ACA benefit from shared experiences of others, and have the opportunity to learn from those experiences and
+		become safer cavers.</div>
+	<div class="paragraph">
+		The ACA is distributed automatically to all current members of the National Speleological Society. Back
+		issues are available on-line to NSS members. Non-members may order copies from the NSS Bookstore while
+		supplies last.</div>
+	<div class="paragraph"> We also include technical articles and other material related to caving
+		safety. If you have any <a href="photos.shtml">photographs or diagrams</a> from
+		rescues that might be of interest, please <a href="contact.shtml">contact
+			the editor</a>.
+	</div>
+	<div class="paragraph"> The 1994 through 2010 accident and incident report indexes are provided
+		above. Full text reports and back issues are not&nbsp;yet available online. Back
+		issues of
+		<i>ACA</i> may be purchased from the <a
+			href="https://members.caves.org/store/ListProducts.aspx?catid=669867&ftr=American%20Caving%20Accidents">
+			NSS Bookstore</a> for a nominal fee.
+	</div>
+	<div class="paragraph">If you are aware of any
+		accidents or safety incidents in North America that are not shown on the incident
+		lists above, please <a href="aca-report-form.php">submit
+			a report</a> or <a href="contact.shtml">notify
+			the editor</a>. Unpublished incidents from prior years may also be reported for
+		publication. <i>American Caving Accidents </i>is published as a special issue of
+		the <i>NSS News,</i> and current NSS members automatically receive a copy of each
+		<i>ACA</i>
+		as a part of their membership in the Society.</div>
 	<table width="100%" border="0" cellpadding="2">
 		<tr>
 			<td>
 				<div class="center">
 					<h3>How to Submit an Incident Report</h3>
 				</div>
-				<div class="paragraph"><b>An online <a href="aca-report-form.php">accident and incident report form</a>
-					is available for use.</b> <br>	
+				<div class="paragraph"><b>An online <a href="aca-report-form.php">accident and incident report
+							form</a>
+						is available for use.</b> <br>
 					<a href="survey.shtml">Comments and suggestions</a> for improvement of the publication
 					or the web site are welcome.
 				</div>
 				<div class="paragraph">Send hardcopy accident and incident reports, news clippings, etc. to <em>
-					American Caving Accidents</em> by US mail at: </div>
-					<blockquote>
+						American Caving Accidents</em> by US mail at: </div>
+				<blockquote>
 					<address>
 						American Caving Accidents<br>
 						6001 Pulaski Pike<br>
 						Huntsville AL 35810-1122
 					</address>
-					</blockquote>
+				</blockquote>
 				</div>
-				<div class="paragraph">In all incident reports, please be sure to indicate the <strong>name</strong> 
+				<div class="paragraph">In all incident reports, please be sure to indicate the <strong>name</strong>
 					of the cave, the <strong>state</strong> where the cave is located, and the <strong>
-					date</strong>
-					of the incident. It is also helpful if you will provide <strong>contact 
-					information</strong>
-					(your own, or that of persons having knowledge of the incident) so that we can 
-					follow up on missing details. When sending <b> newspaper clippings</b>, be sure 
+						date</strong>
+					of the incident. It is also helpful if you will provide <strong>contact
+						information</strong>
+					(your own, or that of persons having knowledge of the incident) so that we can
+					follow up on missing details. When sending <b> newspaper clippings</b>, be sure
 					to indicate the
-					<b> newspaper name</b>, <b> city</b> and <b>state</b>, and the <b> date of 
-					publication</b>. A summary report in the <a href="style.shtml">style of <i>
-					American Caving Accidents</i></a> is ideal.
+					<b> newspaper name</b>, <b> city</b> and <b>state</b>, and the <b> date of
+						publication</b>. A summary report in the <a href="style.shtml">style of <i>
+							American Caving Accidents</i></a> is ideal.
 				</div>
 				<div class="paragraph">
-					Submitted reports become the property of the National Speleological Society, 
-					and may be published in full or in summary form in <i>American Caving Accidents</i>. 
+					Submitted reports become the property of the National Speleological Society,
+					and may be published in full or in summary form in <i>American Caving Accidents</i>.
 					Credit will be give to the author when submitted material is included in <i>ACA</i>.
-				</div>		
-				<h3 align="center">Elders of the Tribe</font></h3>
+				</div>
+				<h3 align="center">Elders of the Tribe</font>
+				</h3>
 				<div class="paragraph">
 					<em>American Caving Accidents</em> is a teaching tool.
-					It's a  communication channel. It is a way for us to pass on to  new cavers the
+					It's a communication channel. It is a way for us to pass on to new cavers the
 					collective experience and wisdom of the community. Those of us who have been
 					around long enough to learn a few things, and who are still caving, owe it to
 					the community and to the newcomers to serve as mentors for the next generation
@@ -160,21 +194,25 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 					editorial, published in American Caving Accidents in 1997, former editor Bill Putnam
 					suggests that this is, in fact, part of our duty to our fellow cavers.
 					<a href="elders.shtml">Read more.</a>
-				</div>           
+				</div>
 
 				<h3 align="center">American Caving Accidents - Back Issues</h3>
-				
+
 				<div class="paragraph">
 					<strong>PDFs of ALL back issues of <em>American Caving Accicents</em> are now
-					available to members in the
-					<a href="https://www.caves.org/nss-business/publications/ACA/" target="_blank">Publications Archives</a>
-					(login with NSS# and Zip Code required).</strong>
+						available to members in the
+						<a href="https://caves.org/nss-business/publications/ACA/index.shtml"
+							target="_blank">Publications
+							Archives</a>
+						(login with NSS# and Zip Code required).</strong>
 				</div>
 				<div class="paragraph">
-					Copies of prior year issues are also available in limited quantity through the <a href="https://n587.z2systems.com/np/clients/n587/giftstore.jsp?actionType=search&keyword=American%20Caving%20Accidents&catalogSearch=true">NSS 
-					Bookstore</a>.
+					Copies of prior year issues are also available in limited quantity through the <a
+						href="https://members.caves.org/store/ListProducts.aspx?catid=669867&ftr=American%20Caving%20Accidents">NSS
+						Bookstore</a>.
 				</div>
-				<h3 align="center">Other resources that may be of interest</strong></h3> 			<ul>
+				<h3 align="center">Other resources that may be of interest</strong></h3>
+				<ul>
 					<li><a href="http://www.caves.org/safety">NSS Safety and Techniques Page</a></li>
 					<li><a href="http://ncrc.info/">National Cave Rescue Commission (NCRC)</a> </li>
 					<li><a href="http://www.nsscds.com/">NSS Cave Diving Section (CDS)</a></li>
@@ -183,37 +221,46 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 					<li><a href="http://www.nasar.org">National Association for Search and Rescue (NASAR)</a></li>
 					<li><a href="http://www.caverescue.org.uk">British Cave Rescue Council (BCRC)</a></li>
 				</ul>
-			</td>			
+			</td>
 			<td>
 				<div>
-					<a href="https://n587.z2systems.com/np/clients/n587/giftstore.jsp?actionType=search&keyword=American%20Caving%20Accidents&catalogSearch=true">		
-					<img border="0" src="images/cover2010.gif" width="199" height="256" align="right" hspace="10" vspace="55">
+					<a
+						href="https://members.caves.org/store/ListProducts.aspx?catid=669867&ftr=American%20Caving%20Accidents">
+						<img border="0" src="images/cover2010.gif" width="199" height="256" align="right" hspace="10"
+							vspace="55">
 					</a>
 				</div>
 				<div>
-					<a href="https://n587.z2systems.com/np/clients/n587/giftstore.jsp?actionType=search&keyword=American%20Caving%20Accidents&catalogSearch=true">				
-					<img border="0" src="images/cover2013.png" width="200" height="258" align="right" hspace="10" vspace="55">
+					<a
+						href="https://members.caves.org/store/ListProducts.aspx?catid=669867&ftr=American%20Caving%20Accidents">
+						<img border="0" src="images/cover2013.png" width="200" height="258" align="right" hspace="10"
+							vspace="55">
 					</a>
 				</div>
 				<div>
 					<font size="4"><i>
-					<a href="https://n587.z2systems.com/np/clients/n587/giftstore.jsp?actionType=search&keyword=American%20Caving%20Accidents&catalogSearch=true">
-					<img border="0" src="images/cover2015.png" align="right" width="200" height="262" hspace="10" vspace="55">
-					</a>
-					</i></font> 
+							<a
+								href="https://members.caves.org/store/ListProducts.aspx?catid=669867&ftr=American%20Caving%20Accidents">
+								<img border="0" src="images/cover2015.png" align="right" width="200" height="262"
+									hspace="10" vspace="55">
+							</a>
+						</i></font>
 				</div>
 			</td>
 		</tr>
-  </table>
-</div>
-<hr><div class="center">
-<address>
-  <font size="2">This page is maintained by <a href="contact.shtml">the NSS
-  American Caving Accidents Committee</a> (<a href="mailto:aca@caves.org">aca@caves.org</a>).<br>
-  Your comments and suggestions are welcome. Copyright &copy; 2016 National Speleological Society 
-  Inc.</font>
-</address></div>
-<hr>
-<!--#include virtual="/includes/footer.html"-->
+	</table>
+	</div>
+	<hr>
+	<div class="center">
+		<address>
+			<font size="2">This page is maintained by <a href="contact.shtml">the NSS
+					American Caving Accidents Committee</a> (<a href="mailto:aca@caves.org">aca@caves.org</a>).<br>
+				Your comments and suggestions are welcome. Copyright &copy; 2016 National Speleological Society
+				Inc.</font>
+		</address>
+	</div>
+	<hr>
+	<!--#include virtual="/includes/footer.html"-->
 </body>
+
 </html>

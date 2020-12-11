@@ -35,7 +35,7 @@ var AccidentViewModel = function (accidents) {
 				ao.results = a.Results;
 				ao.complete = a.Complete;
 				if ( a.Pdf != null )
-					ao.pdf = 'https://caves.org/nss-business/publications/NSS_News/' + a.pdf;				
+					ao.pdf = 'https://caves.org/nss-business/publications/NSS_News/' + a.Pdf;				
 
 				switch (a.CavingType) {
 				case 0: // caving accidents
