@@ -88,6 +88,10 @@
 				<td><a href="accident_search.shtml?year=2017">2017</a></td>
 				<td><a href="accident_search.shtml?year=2018">2018</a></td>
 			</tr>
+			<tr>
+				<td><a href="accident_search.shtml?year=2017">2019</a></td>
+				<td><a href="accident_search.shtml?year=2018">2020</a></td>
+			</tr>
 		</table>
 
 		<div class="center" style="margin-top:2em">Cave Safely and Responsibly</div>
@@ -105,7 +109,8 @@
 	<div class="center">Brian Dickey - Webmaster</div>
 	<div class="center" style="margin-top:1em; margin-bottom:1em;">Correspondence, <a
 			href="aca-report-form.php">accident reports</a>, and inquiries related to <i>ACA</i> may be directed to
-		<a href="contact.shtml">Bonny</a> at <a href="mailto:aca@caves.org">aca@caves.org</a>.</div>
+		<a href="contact.shtml">Bonny</a> at <a href="mailto:aca@caves.org">aca@caves.org</a>.
+	</div>
 	<hr width="65%">
 	<div class="center">
 		<h3>About <em> American Caving Accidents</em></h3>
@@ -142,7 +147,8 @@
 		publication. <i>American Caving Accidents </i>is published as a special issue of
 		the <i>NSS News,</i> and current NSS members automatically receive a copy of each
 		<i>ACA</i>
-		as a part of their membership in the Society.</div>
+		as a part of their membership in the Society.
+	</div>
 	<table width="100%" border="0" cellpadding="2">
 		<tr>
 			<td>
